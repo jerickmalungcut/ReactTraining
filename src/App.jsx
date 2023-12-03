@@ -1,5 +1,6 @@
 import Employees from "./components/Employees";
 import FullName from "./components/FullName";
+import InputValue from "./components/InputValue";
 
 function App() {
   const showEmployee = true;
@@ -17,6 +18,8 @@ function App() {
       ) : (
         <h1>No employees found</h1>
       )}
+
+      <InputValue />
 
       <FullName />
     </div>

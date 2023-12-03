@@ -10,7 +10,7 @@ const Employees = ({ name, job }) => {
 };
 
 Employees.propTypes = {
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string,
   job: PropTypes.string,
 };
 
