@@ -13,7 +13,9 @@ const ButtonEdit = ({ isOpen, onClose, children }) => {
             className="fixed inset-0 bg-black opacity-50"
             onClick={handleClose}
           ></div>
-          <div className="bg-white p-8 rounded shadow-lg z-10">{children}</div>
+          <div className="bg-white px-8 py-4 rounded shadow-lg z-10 min-w-[500px]">
+            {children}
+          </div>
         </div>
       )}
     </>
